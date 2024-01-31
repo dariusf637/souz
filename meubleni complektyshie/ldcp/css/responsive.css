@@ -1,0 +1,161 @@
+@media screen  and (max-width: 1366px) {
+ 
+    /****** hero *******/
+       .hero h1 {
+       font-size: 36px;
+   
+    }
+    .hero p {
+       font-size: 14px;
+       
+    }
+    /* ------------------ */
+       .gallerys  span {
+       font-size: 36px;
+   
+    }
+    .gallerys span p {
+       font-size: 14px;
+       
+    }
+    /* ************* */
+   }
+   @media screen  and (max-width: 1530px){
+         /* header responsive */
+   nav ul li {
+    padding: 0 9px;
+ }
+nav ul li a {
+    font-size: 11.5px;
+ }
+nav  .socials a  {
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+ }
+
+nav .socials a i {
+    line-height: 10px;
+
+ }
+
+   }
+
+
+
+   @media screen  and (max-width: 1199px) {
+   
+       /* header responsive */
+   nav ul li {
+       padding: 0 5px;
+    }
+   nav ul li a {
+       font-size: 9.5px;
+    }
+   nav  .socials a  {
+       width: 8px;
+       height: 8px;
+       font-size: 8px;
+    }
+   
+   nav .socials a i {
+       line-height: 4px;
+   
+    }
+   
+    /****** hero *******/
+    .hero .slide-left {
+       text-align: center;
+    }
+    .hero .slide-left h1,
+    .hero .slide-left p {
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .hero .carousel-indicators {
+       margin: 0 auto !important;
+    }
+    /* ******************************* */
+    .gallerys .gallery img {
+       text-align: center;
+    }
+    .gallerys .gallery img ,
+    .gallerys .gallery h3 {
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .gallerys .gallery {
+       margin: 0 auto !important;
+    }
+    
+   /* ********************* */
+   }
+
+   
+   @media screen  and (max-width: 991px) {
+     /* ----- footer ----     */
+       footer div.socials {
+           margin-left: 5px;
+         }
+   
+         footer p.socials {
+           font-size: 12px;
+         }
+   }
+   
+   @media screen  and (max-width: 767px) {
+       
+       /* -----footer colums----  */
+       
+       .footer-columns {
+           padding-top: 70px;
+           padding-bottom: 70px;
+       } 
+   
+       .column {
+           border-bottom: 1px solid #000000;
+           margin-bottom: 25px;
+           padding-bottom: 15px;
+       }
+       .column:last-child {
+           border: none;
+           margin-bottom: 0;
+           padding-bottom: 0;
+       }
+   
+       /* ----- footer ----     */
+       footer div.socials {
+           margin-left: 5px;
+         }
+   
+         footer p.socials {
+           font-size: 12px;
+         }
+         @media screen  and (max-height: 870px) {
+           footer .fixed-content {
+               position: relative;
+               
+             }
+         }
+   
+   }
+   @media screen  and (max-width: 575px) {
+        /* hero */ 
+        .cta .button-primary {
+           margin-bottom: 10px;
+        }
+       
+        .copyright p,
+   .copyright a {
+       font-size: 10px;
+       height: 100px;
+   }
+   }
+   @media screen  and (max-width: 340px) {
+       .copyright p,
+       .copyright a {
+           font-size: 5px;
+           height: 0px;
+   }}
